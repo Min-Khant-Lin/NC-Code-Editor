@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NC-Code-Editor", "NC-Code-Editor\NC-Code-Editor.pyproj", "{5475E1FF-727A-4224-A049-838635615014}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5475E1FF-727A-4224-A049-838635615014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5475E1FF-727A-4224-A049-838635615014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6356768E-D519-40C8-8A2E-BE3537104E46}
+	EndGlobalSection
+EndGlobal
