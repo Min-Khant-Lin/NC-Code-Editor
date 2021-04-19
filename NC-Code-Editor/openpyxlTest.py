@@ -11,11 +11,13 @@ oneLine = ""
 i = 2
 for x in coding:
     if x == "\n":
-        xsheet['A' + str(i)] = oneLine
+        xsheet['D' + str(i)] = oneLine
         oneLine = ""
         i += 1
     else:
         oneLine+=x
-    
+        if oneLine == "RTS":
+            xsheet['D' + str(i)] = oneLine
+        
 i = 0
 xfile.save("C:/ADMAC-Parts/FilesM/Output/G001/T1.xlsm")
