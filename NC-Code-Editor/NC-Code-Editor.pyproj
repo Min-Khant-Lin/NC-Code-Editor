@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5475e1ff-727a-4224-a049-838635615014</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pass\shutilTest.py</StartupFile>
+    <StartupFile>NC-Code-Editor.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

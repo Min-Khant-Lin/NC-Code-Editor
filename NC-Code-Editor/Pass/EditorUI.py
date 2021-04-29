@@ -13,6 +13,7 @@ def createExcel():
         print("Could not find the file:" + pName)
 
 window = tk.Tk()
+window.title("編集")
 window.geometry("200x150")
 
 frame1 = tk.Frame()
