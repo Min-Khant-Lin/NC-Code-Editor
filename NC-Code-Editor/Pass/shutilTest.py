@@ -6,7 +6,10 @@ path = 'C:/ADMAC-Parts/FilesM/Output'
 print("Before copying file:")
 print(os.listdir(path))
 
-source = "C:/ADMAC-Parts/FilesM/Output/NCコード-V13.xlsm"
+
+#source = "C:/ADMAC-Parts/FilesM/Output/NCコード-V13.xlsm"
+print(os.getcwd())  #Get current python file's directory
+source = os.getcwd() + "/Data/NCコード-V13.xlsm"
 
 perm = os.stat(source).st_mode
 print("File Permission mode:", perm, "/n")
