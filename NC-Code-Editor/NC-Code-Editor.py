@@ -16,6 +16,7 @@ def createExcel():
         messagebox.showerror("エラー", pName + "が見つかりませんでした。")
 
 
+
 def copyExcel(pName):
     path = 'C:/ADMAC-Parts/FilesM/Output'
     source = os.getcwd() + "/Data/NCコード-V13.xlsm"     
@@ -24,6 +25,7 @@ def copyExcel(pName):
 
     destination = "C:/ADMAC-Parts/FilesM/Output/" + pName + "/" + pName + ".xlsm"
     dest = shutil.copy(source, destination)
+
 
 
 def copyCode(contents, pName):
@@ -46,7 +48,6 @@ def copyCode(contents, pName):
     i = 0
 
     wb.save(r"C:/ADMAC-Parts/FilesM/Output/" + pName + "/" + pName + ".xlsm")
-
 
 window = tk.Tk()
 
