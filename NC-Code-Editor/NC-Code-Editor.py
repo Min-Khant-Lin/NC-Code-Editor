@@ -1,3 +1,4 @@
+#2021/07/12
 import tkinter as tk
 from tkinter import messagebox
 import os 
@@ -15,8 +16,6 @@ def createExcel():
     except (OSError,FileNotFoundError):
         messagebox.showerror("エラー", pName + "が見つかりませんでした。")
 
-
-
 def copyExcel(pName):
     path = 'C:/ADMAC-Parts/FilesM/Output'
     source = os.getcwd() + "/Data/NCコード-V13.xlsm"     
@@ -25,8 +24,6 @@ def copyExcel(pName):
 
     destination = "C:/ADMAC-Parts/FilesM/Output/" + pName + "/" + pName + ".xlsm"
     dest = shutil.copy(source, destination)
-
-
 
 def copyCode(contents, pName):
     wb = xw.Book(r"C:/ADMAC-Parts/FilesM/Output/" + pName + "/" + pName + ".xlsm")
